@@ -3,7 +3,11 @@
 // a provided function on every element in the calling array
 const array1 = [1, 4, 9, 16];
 
-// pass a function to the map
-const map1 = array1.map((x) => x * 2);
+function myCustomMapOperationCallback(itemFromArray) { // Iterating on the array
+    return itemFromArray * 2; // this takes every item in array1 and multiply by 2
+}
 
-console.log(map1); // Output: Array [ 2, 8, 18, 32]
+// pass a function to the map
+const newArray = array1.map(myCustomMapOperationCallback); // this call back the function
+
+console.log(newArray); // Output: Array [ 2, 8, 18, 32]
