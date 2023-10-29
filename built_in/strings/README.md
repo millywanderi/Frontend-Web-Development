@@ -1,1 +1,2 @@
-# Built-in string methods in JavaScript
+# Strings
+Built-in string methods in JavaScript
