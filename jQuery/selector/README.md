@@ -1,2 +1,2 @@
 # Selectors
-Learning Id and classes selector
+Learning Id & classes selector
