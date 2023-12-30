@@ -19,4 +19,15 @@ for (initialization; condition; iteration) {
 for (let i = 0; i < 5; i++) {
   console.log(i);
   }
+* while Loop
+The while loop continues executing a block of code while a specified condition is true:
+while (condition) {
+  // code block to be executed
+  }
+### Example:
+let i = 0;
+while (i < 5) {
+  console.log(i);
+    i++;
+	}
 
