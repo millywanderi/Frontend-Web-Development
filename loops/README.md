@@ -53,3 +53,8 @@ do {
   console.log(i);
   i++;
 } while (i < 5);
+
+## Best Practices
+* Initialization: Always initialize loop variables properly to avoid unexpected behavior.
+* Condition: Ensure the loop condition eventually becomes false to prevent infinite loops.
+* Iteration: Update loop variables within the loop to achieve the desired behavior.
